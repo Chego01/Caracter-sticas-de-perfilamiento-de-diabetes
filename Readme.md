@@ -25,7 +25,6 @@ y = df['class']
 Importamos las librerias necesarias para la creacion del modelo
 from sklearn.model_selection import train_test_split
 30% para test y 70% para train
-X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.30,random_state=00000)
 
 Arbol de decision
 from sklearn.ensemble import RandomForestClassifier
@@ -40,11 +39,6 @@ random_forest.fit(X_train,y_train)
 Calculo de metricas 
 from sklearn.metrics import accuracy_score
 
-Calculo el accuracy en Train
-train_accuracy = accuracy_score(y_true=y_train,y_pred=y_train_pred)
-
-Calculo el accuracy en Test
-test_accuracy = accuracy_score(y_true=y_test,y_pred=y_test_pred)
 El accuracy score en train es: 0.996268656716418
 El accuracy score en test es: 0.7532467532467533
 ![image](https://github.com/user-attachments/assets/750dc80e-2ca4-4c3c-af03-b9fc3a0bbc6f)
