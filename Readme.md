@@ -40,6 +40,7 @@ Calculo de metricas
 from sklearn.metrics import accuracy_score
 
 El accuracy score en train es: 0.996268656716418
+
 El accuracy score en test es: 0.7532467532467533
 ![image](https://github.com/user-attachments/assets/750dc80e-2ca4-4c3c-af03-b9fc3a0bbc6f)
 
