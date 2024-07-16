@@ -18,7 +18,7 @@ El significado de los nombres de las características es el siguiente:
 * Edad (años).
 * Variable de clase (0 o 1).
 ## Entrenamiento de random forest con scikit-learn
-#Separamos en X e y
+Separamos en X e y
 X = df.drop(['class'],axis=1)
 y = df['class']
 
