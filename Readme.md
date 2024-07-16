@@ -47,6 +47,7 @@ El accuracy score en test es: 0.7532467532467533
 Contacto:
 
 linkedin - linkedin.com/in/kevin-mayki-manchego-villegas-75b009213
+
 email - kevmanchego@gmail.com
 
 El estatus correspondiente al proyecto es de: completo/publicado.
